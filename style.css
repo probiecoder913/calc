@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(199, 197, 197);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.calc{
+    margin: auto;
+    width: 400px;
+    text-align: center;
+}
+input{
+    width: 320px;
+    position: relative;
+    height: 50px;
+    text-align: right;
+    padding: 10px;
+    font-size: 30px;
+    border: thistle solid 2px;
+    background: rgb(226, 216, 226);
+    margin: 5px;
+    z-index: -3;
+}
+.buttons{
+    text-justify: newspaper;
+    text-align: center;
+}
+button{
+    width: 100px;
+    height: 50px;
+    margin: 2px;
+    font-size: 20px;
+    border: rgb(109, 178, 187) 1px solid;
+    background: powderblue;
+}
+.c{
+    width: 208px;
+    background: thistle;
+    border: rgb(206, 172, 206) 1px solid;
+}
+.equal{
+    background: thistle;
+    border: rgb(206, 172, 206) 1px solid;
+}
